@@ -8,14 +8,14 @@ public class Task1 {
     }
 
     public static int countDigits(int num) {
-        if (num == 0) {
-            return 1;
-        }
+//        if (num == 0) {
+//            return 1;
+//        }
         int res = 0;
         while (num != 0) {
             num = num / 10;
             res++;
         }
-        return res;
+        return res == 0 ? 1 : res;
     }
 }
