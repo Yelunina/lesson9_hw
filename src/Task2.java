@@ -8,10 +8,10 @@ public class Task2 {
 // and even positioned digits in a number
 
     public static void main(String[] args) {
-        int n = 457892;
-        luckyNumber(n);
-        n = 1738649;
-        luckyNumber(n);
+        int num = 457892;
+        luckyNumber(num);
+        num = 1738649;
+        luckyNumber(num);
     }
 
     public static void luckyNumber(int num) {
